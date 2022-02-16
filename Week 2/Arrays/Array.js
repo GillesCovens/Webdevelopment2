@@ -1,3 +1,4 @@
+const setup = () => {
 let famillieLeden = ["Michiel", "Milan", "Yassin", 'bertje', 'gertjan']
 let aantal = 0;
 for(let i = 0; i< famillieLeden.length; i++)
@@ -19,12 +20,9 @@ const voegNaamToe = () =>
 
 voegNaamToe();
 
-console.log(famillieLeden.join(" "));
+console.log(famillieLeden.join(", "));
 
 
-
-
-const setup = () => {
 }
 window.addEventListener("load", setup);
 
