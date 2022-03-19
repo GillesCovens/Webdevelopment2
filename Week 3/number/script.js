@@ -19,9 +19,9 @@ const herbereken = () => {
     let subtotaalProduct2 = (aantalProduct2 * parseFloat(prices[1].textContent)) * 1.21;
     let subtotaalProduct3 = (aantalProduct3 * parseFloat(prices[2].textContent)) * 1.21;
 
-    subtotalen[0].textContent = `${subtotaalProduct1.toFixed(2).toString()}`;
-    subtotalen[1].textContent = `${subtotaalProduct2.toFixed(2).toString()}`;
-    subtotalen[2].textContent = `${subtotaalProduct3.toFixed(2).toString()}`;
+    subtotalen[0].textContent = `${subtotaalProduct1.toFixed(2)}`;
+    subtotalen[1].textContent = `${subtotaalProduct2.toFixed(2)}`;
+    subtotalen[2].textContent = `${subtotaalProduct3.toFixed(2)}`;
 
     totaal.textContent = (subtotaalProduct1 + subtotaalProduct2 + subtotaalProduct3).toFixed(2).toString();
 
