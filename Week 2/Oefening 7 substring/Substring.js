@@ -1,3 +1,4 @@
+
 const setup = () => {
     let btnSubstring = document.getElementById("btnSubstring")
     btnSubstring.addEventListener("click", substring)

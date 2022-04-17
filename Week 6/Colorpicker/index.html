@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>colorPicker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="colorPicker">
+    <div class="swatch">
+
+    </div>
+    <div class="components">
+            0<input type="range" id="slider1" name="slider1" value="127" max="255" min="0"oninput="this.nextElementSibling.value = this.value">
+        255 red: <output>128</output><br>
+           0 <label for="slider2"></label><input type="range" id="slider2" name="slider2" value="127" max="255" min="0" oninput="this.nextElementSibling.value = this.value">
+       255 green:  <output>128</output><br>
+           0 <input type="range" id="slider3" name="slider3" value="127" max="255" min="0" oninput="this.nextElementSibling.value = this.value">
+        255 blue: <output>128</output>
+        <button>save</button>
+    </div>
+
+</div>
+
+<script type="text/javascript" charset="utf-8" src="script.js"></script>
+</body>
+</html>
